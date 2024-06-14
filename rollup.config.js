@@ -25,6 +25,8 @@ const overrided = {
 
 await fs.rm('./dist', { recursive: true, force: true })
 await fs.mkdir('./dist')
+await fs.mkdir('./dist/addon/fold', { recursive: true })
+await fs.cp('./node_modules/codemirror/addon/fold', './dist/addon/fold', { recursive: true })
 
 export default defineConfig({
   input: 'src/main.ts',

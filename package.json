@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "typora-plugin-example",
+  "name": "typora-community-plugin.code-folding",
   "version": "",
   "description": "",
   "type": "module",
@@ -23,9 +23,10 @@
     "@rollup/plugin-terser": "^0.4.4",
     "@rollup/plugin-typescript": "^11.1.5",
     "@rollup/plugin-virtual": "^3.0.2",
+    "@types/codemirror": "^5",
     "@types/jquery": "3.3.1",
     "@types/node": "16.18.0",
-    "@types/typora": "npm:@typora-community-plugin/typora-types@^1.0.6",
+    "@types/typora": "npm:@typora-community-plugin/typora-types@^1.0.8",
     "@typora-community-plugin/core": "^2.0.0",
     "archiver": "^5.3.2",
     "esbuild": "^0.19.2",
@@ -37,5 +38,8 @@
     "sass": "^1.69.5",
     "tslib": "^2.6.2",
     "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "codemirror": "^5"
   }
 }

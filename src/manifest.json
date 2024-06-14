@@ -1,11 +1,11 @@
 {
-  "id": "typora-community-plugin.example",
-  "name": "Example",
-  "description": "Example plugin for typora.",
+  "id": "typora-community-plugin.code-folding",
+  "name": "Code Folding",
+  "description": "Make your codes foldable.",
   "author": "plylrnsdy",
   "authorUrl": "https://github.com/plylrnsdy",
-  "repo": "typora-community-plugin/typora-plugin-example",
-  "version": "1.0.1",
+  "repo": "typora-community-plugin/typora-plugin-code-folding",
+  "version": "1.0.0",
   "minAppVersion": "1.5.0",
   "minCoreVersion": "2.0.0-beta.36",
   "platforms": ["win32", "linux", "darwin"]
