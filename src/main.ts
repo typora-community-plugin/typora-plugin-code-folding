@@ -31,7 +31,7 @@ export default class extends Plugin {
   importScript(url: string) {
     const script = document.createElement('script')
     script.dataset.by = this.manifest.id
-    script.src = path.join(this.manifest.dir!, url)
+    script.src = 'file://' + path.join(this.manifest.dir!, url)
     document.head.appendChild(script)
     return () => script.remove()
   }
